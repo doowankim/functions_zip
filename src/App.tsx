@@ -1,10 +1,12 @@
 import React from 'react';
+import Router from './router';
+import * as Styled from './styles';
 
 const App = () => {
 	return (
-		<div>
-			<div>functions zip</div>
-		</div>
+		<Styled.GlobalStyle>
+			<Router />
+		</Styled.GlobalStyle>
 	);
 };
 
