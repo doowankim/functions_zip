@@ -1,12 +1,11 @@
 import React from 'react';
 import Router from './router';
-import * as Styled from './styles';
 
 const App = () => {
 	return (
-		<Styled.GlobalStyle>
+		<div>
 			<Router />
-		</Styled.GlobalStyle>
+		</div>
 	);
 };
 
