@@ -1,14 +1,27 @@
 import React from 'react';
-import * as Styled from './styles';
+import Emoji from '../Emoji';
+import * as S from './styles';
 
 const Navbar = () => {
-	return (
-		<Styled.Container>
-			<Styled.Wrapper>
-				<div>기능모음집</div>
-			</Styled.Wrapper>
-		</Styled.Container>
-	);
+  return (
+    <S.Container>
+      <S.Wrapper>
+        <S.List>
+          <S.LOGO>DOOWAN 놀이터</S.LOGO>
+          <ul>
+            <li>
+              <Emoji symbol="💻" label="notebook" />
+              Github
+            </li>
+            <li>
+              <Emoji symbol="💬" label="message" />
+              Direct Message
+            </li>
+          </ul>
+        </S.List>
+      </S.Wrapper>
+    </S.Container>
+  );
 };
 
 export default Navbar;
