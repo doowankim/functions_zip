@@ -5,20 +5,7 @@ const SubMenuBar = () => {
   return (
     <S.Container>
       <S.Wrapper>
-        <div>Calendar</div>
-        <div>Calendar</div>
-        <div>Calendar</div>
-        <div>Calendar</div>
-        <div>Calendar</div>
-        <div>Calendar</div>
-        <div>Calendar</div>
-        <div>Calendar</div>
-        <div>Calendar</div>
-        <div>Calendar</div>
-        <div>Calendar</div>
-        <div>Calendar</div>
-        <div>Calendar</div>
-        <div>Calendar</div>
+        <div>Sign up / Login</div>
       </S.Wrapper>
     </S.Container>
   );

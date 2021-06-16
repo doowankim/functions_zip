@@ -7,9 +7,9 @@ const Navbar = () => {
     <S.Container>
       <S.Wrapper>
         <S.List>
-          <S.LOGO>DOOWAN 놀이터</S.LOGO>
+          <S.LOGO>DOOWAN Playground</S.LOGO>
           <ul>
-            <li>
+            <li onClick={() => window.open('https://github.com/doowankim')}>
               <Emoji symbol="💻" label="notebook" />
               Github
             </li>
