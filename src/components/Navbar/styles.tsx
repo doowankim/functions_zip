@@ -50,3 +50,7 @@ export const LOGO = styled.div`
     text-align: center;
   }
 `;
+
+export const MenuBox = styled.div`
+  /* float: right; */
+`;
